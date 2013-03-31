@@ -13,7 +13,7 @@
     ],
     "require": {
         "php": ">=5.3.2",
-  	    "redaktor/depot": "0.0.*@dev",
+        "redaktor/depot": "0.0.*@dev",
         "twitter/bootstrap": "v2.3.1"
     },
     "require-dev": {
