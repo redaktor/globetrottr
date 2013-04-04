@@ -11,12 +11,9 @@
             "homepage": "https://redaktorcms.com"
         }
     ],
-    "repositories": [{ "type": "composer", "url": "https://raw.github.com/superdweebie/dojo/master" }],
     "require": {
         "php": ">=5.3.2",
         "redaktor/depot": "dev-master",
-        "superdweebie/dojo" : "1.8.3",
-        "dojo/bootstrap" : "v1.2",
         "fort-awesome/font-awesome" : "3.0.1"
     },
     "require-dev": {
