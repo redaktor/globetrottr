@@ -15,9 +15,9 @@
     "require": {
         "php": ">=5.3.2",
         "redaktor/depot": "dev-master",
-        "twitter/bootstrap": "v2.3.1",
-        "sanpi/twitter-bootstrap-installer": "dev-master",
-        "superdweebie/dojo" : "1.8.3"
+        "superdweebie/dojo" : "1.8.3",
+        "dojo/bootstrap" : "v1.2",
+        "fort-awesome/font-awesome" : "3.0.1"
     },
     "require-dev": {
         "phpunit/phpunit": "3.7.*",
@@ -25,11 +25,7 @@
     },
     "autoload": {
         "psr-0": { "Depot": "src" }
-    },
-    "scripts": {
-        "post-install-cmd": "Sanpi\\TwitterBootstrap\\Composer\\ScriptHandler::postInstall",
-        "post-update-cmd": "Sanpi\\TwitterBootstrap\\Composer\\ScriptHandler::postUpdate"
-    },
+    }
     "extra": {
         "branch-alias": {
             "dev-master": "0.0-dev"
