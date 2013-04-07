@@ -15,7 +15,7 @@
     "require": {
         "php": ">=5.3.2",
         "redaktor/depot": "dev-master",
-        "hybridauth/hybridauth": "3.0.0.*@dev",
+        "hybridauth/hybridauth": "dev-master",
         "twitter/bootstrap": "v2.3.1",
         "sanpi/twitter-bootstrap-installer": "dev-master"
     },
